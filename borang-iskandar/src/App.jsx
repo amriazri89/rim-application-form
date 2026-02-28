@@ -49,7 +49,7 @@ const C = {
   warnText:    "#78350f",
   warnLabel:   "#92400e",
   error:       "#ef4444",
-  headerBg:    "#242469",
+  headerBg:    "#f97b14",
 };
 
 const inputBase = {
@@ -227,7 +227,7 @@ export default function App() {
       {/* header */}
       <header style={{ background:C.headerBg, padding: isMobile ? "1.1rem 1rem" : "1.25rem 2rem" }}>
         <div style={{ maxWidth:"720px", margin:"0 auto", display:"flex", alignItems:"center", gap:"0.9rem" }}>
-          <div style={{ width:"34px", height:"34px", minWidth:"34px", background:"rgba(255,255,255,0.07)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"7px", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"1rem" }}>🏠</div>
+          <div style={{ width:"34px", height:"34px", minWidth:"34px", background:"rgba(250, 248, 248, 0.2)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"7px", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"1rem" }}>🏠</div>
           <div>
             <div style={{ fontSize:"0.63rem", letterSpacing:"0.1em", textTransform:"uppercase", color:"rgba(255,255,255,0.4)", marginBottom:"0.1rem" }}>Iskandar Malaysia</div>
             <h1 style={{ fontSize: isMobile ? "0.92rem" : "1rem", fontWeight:600, color:"#fff", letterSpacing:"-0.01em", lineHeight:1.3 }}>
